@@ -44,13 +44,46 @@ nav li a {
 /* header related styles  */
 
 .header {
-  background: #fff8f3;
+  background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 130px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .profile-pic{
   width: 400px;
 }
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-content{
+  max-width: 500px;
+}
+/* main section styles */
+.about{
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
+}
+
+/* about section styles */
